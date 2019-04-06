@@ -23,3 +23,5 @@ CRACKTCHA provides 8 common reCAPTCHA bypass tests:
 
 
 Use at own risk! Not associated with Google in anyway - this is intended to be a application security testing learning application
+
+MIT License
