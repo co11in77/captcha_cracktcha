@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script>
+//script below to delete cookies from: https://stackoverflow.com/questions/179355/clearing-all-cookies-with-javascript
+document.cookie.split(";").forEach(function(c) { document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });
+//required for session_flaw example)
+</script> <title>testt</title>
+  </head>
+  <body style="margin-top: 14px; background-color: #ADC4FD; height: 923px;">
+    <h1 style="text-align: center; background-color: #f9f1f7;" role="menuitemradio">CRACKTCHA</h1>
+    <h2 style="color: black; font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; background-color: #f9f1f7;">The
+      Intentionally Flawed ReCAPTCHA Implementation Testing Application</h2>
+    <p style="text-align: left; background-color: #f9f1f7;"><span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><span></span></span></p>
+    <br>
+    <div style="text-align: center; height: 49px;">
+      <select name="test" onchange="location = this.value;">
+        <option value="">Select Implementation</option>
+        <option value="tests/good.php">reCAPTCHA implemented Correctly</option>
+        <option value="tests/not_implemented_server_or_client.php">reCAPTCHA bypass by not being validated client or server side</option>
+        <option value="tests/not_validated_on_server.php">reCAPTCHA bypass by not validating the request on the server</option>
+        <option value="tests/works_deleted.php">reCAPTCHA bypass by "g-recaptcha-response" deletion</option>
+        <option value="tests/processes_as_get_unvalidated.php">reCAPTCHA bypass via GET not validated server side</option>
+        <option value="tests/processes_as_get_deleted.php">reCAPTCHA bypass via GET when "g-recaptcha-response" is deleted</option>
+        <option value="tests/test_accounts.php">reCAPTCHA bypass via test accounts and hard coded keys</option>
+        <option value="tests/session_flaw.php">reCAPTCHA bypass via valid session repeats</option>
+        <option value="tests/pre_flight.php">reCAPTCHA bypass via pre-flight request integration</option>
+      </select>
+      <select name="test2" onchange="location = this.value;">
+        <option value="">Choose Lesson to View</option>
+        <option value="/lesson/cracktcha/not_implemented_server_or_client.php">reCAPTCHA bypass by not being validated client or server side</option>
+        <option value="/lesson/cracktcha/not_validated_on_server.php">reCAPTCHA bypass by not validating the request on the server</option>
+        <option value="/lesson/cracktcha/works_deleted.php">reCAPTCHA bypass by "g-recaptcha-response" deletion</option>
+        <option value="/lesson/cracktcha/processes_as_get_unvalidated.php">reCAPTCHA bypass via GET not validated server-side</option>
+        <option value="/lesson/cracktcha/processes_as_get_deleted.php">reCAPTCHA bypass via GET when "g-recaptcha-response" is deleted</option>
+        <option value="/lesson/cracktcha/test_accounts.php">reCAPTCHA bypass via test accounts and hard coded keys</option>
+        <option value="/lesson/cracktcha/session_flaw.php">reCAPTCHA bypass via valid session repeats</option>
+        <option value="/lesson/cracktcha/pre_flight.php">reCAPTCHA bypass via pre-flight request integration</option>
+      </select>
+      <em>
+        <select name="test3" onchange="location = this.value;">
+          <option value="Choose Code to Download">Code Download</option>
+          <option value="cracktcha.zip">Code</option>
+        </select>
+      </em></div>
+    <em> </em>
+	<?--BlueGriffin was used to assist with creating some pretty html files for this app?>
+    <p style="text-align: center; height: 43px;"><em><b><span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: large; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+            <b>Please be aware you may need to replace the keys of your reCAPTCHA
+              into the config.php file. Server is intended to be localhost for
+              code download - some hyperlinks may be off a directory. </b> </span></b></em></p>
+    <p style="text-align: center; height: 282px;"><em><b><span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><img
+              src="images/image1.JPG" alt="" style="width: 433px; height: 445px;"></span></b></em></p>
+    <p style="text-align: center; height: 46px;"><br>
+      <em><b><span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: small; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"></span></b></em></p>
+    <p style="height: 167px; margin-top: 117px; text-align: center;"><i></i><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <em><b><span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"></span></b></em></p>
+    <div style="text-align: center; margin-top: -125px;"><span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><i><b>This
+            is intended to be a learning application, use at your own risk.
+            There are cookies on some lessons, this page attempts to delete
+            them. Please understand and use at own risk. Not intended for EU.
+            Designed by Collin Hart - not assosciated with Google in any way&nbsp;</b></i><span></span></span></div>
+			
+  </body>
+</html>
