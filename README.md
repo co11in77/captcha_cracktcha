@@ -1,7 +1,7 @@
 # CRACKTCHA
-The reCAPTCHA implementation testing application.
+The reCAPTCHA implementation testing application. This is intended to be run as a web application and is purposefully insecure.
 
-Modify the config.php file in the tests folder to reflect your reCAPTCHA settings
+Modify the config.php file in the tests folder to reflect your reCAPTCHA settings. Add your reCAPTCHA public and secret keys into this file.
 
 Lessons are located in the "lesson" directory
 
