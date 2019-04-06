@@ -18,7 +18,7 @@ CRACKTCHA provides 8 common reCAPTCHA bypass tests:
 7.  reCAPTCHA bypass via valid session repeats
 8.  reCAPTCHA bypass via pre-flight request integration
 
- Also reCAPTCHA implemented correctly
+ Also includes reCAPTCHA implemented correctly
 
 
 
