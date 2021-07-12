@@ -1,4 +1,4 @@
-# CRACKTCHA
+# CAPTCHA CRACKTCHA
 The reCAPTCHA implementation testing application. This is intended to be run as a web application and is purposefully insecure. This application demonstrates common flaws that developers make when implementing reCAPTCHA
 
 Modify the config.php file in the tests folder to reflect your reCAPTCHA settings. Add your reCAPTCHA public and secret keys into this file. The config file currently has reCAPTCHA test keys -- https://developers.google.com/recaptcha/docs/faq
